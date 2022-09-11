@@ -18,7 +18,7 @@
 |-----------------|-----------------------------------------|
 | Abstract        | Create, Read, Update and Delete         |
 | Language/s Used | Java                                    |
-| Java Version    | 8+                                      |
+| Java Version    | JDK 8+                                  |
 | Database        | Derby  -  version 10.14.2.0             |
 | Developer       | Themba Pro G                            |
 | updates         | 0                                       |
