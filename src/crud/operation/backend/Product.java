@@ -31,14 +31,14 @@ public class Product {
         this.status = true;
     }
 
-    public Product(String product_name, String product_code, Integer product_id, double product_price, String product_type, String description) {
+    public Product(String product_name, String product_code, Integer product_id, double product_price, String product_type, String description, boolean status) {
         this.product_name = product_name;
         this.product_code = product_code;
         this.product_id = product_id;
         this.product_price = product_price;
         this.product_type = product_type;
         this.description = description;
-        this.status = true;
+        this.status = status;
     }
 
     public String getProduct_name() {

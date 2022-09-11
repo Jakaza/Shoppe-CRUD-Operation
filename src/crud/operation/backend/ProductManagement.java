@@ -12,7 +12,7 @@ public interface ProductManagement {
     public void deleteProduct(String sql, Integer product_id)throws SQLException;
     public void updateProduct(String sql, Integer product_id) throws SQLException;
     public void updateProduct(String sql, String product_code) throws SQLException;
-    public List<Product> getAllProduct()throws SQLException;
+    public List<Product> getAllProduct(String sql)throws SQLException;
     public Product getProduct(String sql, Integer product_id)throws SQLException;
     
 }
