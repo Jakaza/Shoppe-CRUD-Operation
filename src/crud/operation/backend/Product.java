@@ -20,7 +20,7 @@ public class Product {
         this.product_price = 0.00;
         this.product_type = "No Product Type";
         this.description = "No Product Description";
-        this.status = true;
+        this.status = false;
     }
     
     public Product(String product_name, String product_code,Integer product_id, double product_price){
